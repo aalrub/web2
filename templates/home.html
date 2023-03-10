@@ -5,6 +5,7 @@
       <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <style>
   #banner{
@@ -15,6 +16,8 @@
 </style>
     </head>
 <body>
+  {% include 'nav.html' %}
+  
   <h1>{{company_name}}  Site</h1>
   <img class='img-fluid' id='banner' src='https://images.unsplash.com/photo-1590092794015-bce5431c83f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=811&q=80' height='320'>
   <p style='color:blue'>Hello there !!</p>
@@ -39,5 +42,7 @@
   
   </p>
   <body>
-    
+    <div>
+      {% include 'footer.html' %}
+    </div>
   </html>
