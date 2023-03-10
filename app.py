@@ -14,7 +14,7 @@ JOBS = [
     'id':2,
     'title': 'data Entry',
     'location':'Nablus',
-    'salary': '2000 ILS'
+    'salary': '20000 ILS'
     
   },
     {
@@ -22,6 +22,13 @@ JOBS = [
     'title': 'Computer Scientiest',
     'location':'Ramallah',
     'salary': '2000 ILS'
+    
+  },
+  {
+    'id':4,
+    'title': 'Pharmaciest',
+    'location':'Albirah',
+    'salary': '4000 ILS'
     
   }
   
